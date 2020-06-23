@@ -1,0 +1,10 @@
+# Exclude everything
+*
+
+# Include project files
+!/.gitignore
+!/README.md
+!/LICENSE
+!/Butler.au3
+!/assets
+!/assets/butler.ico
