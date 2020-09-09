@@ -3,7 +3,7 @@
 #include <File.au3>
 
 ; Set variables for various things
-Global $writeSpeed = 250 ; Anything less causes Ctrl and/or Shift to get "STUCK" on
+Global $writeSpeed = 500 ; Anything less than 250 causes Ctrl and/or Shift to get "STUCK" on
 
 ; Hotkey vars: ^ = Ctrl, ! = Alt, + = Shift
 HotKeySet("^+q","Terminate")
