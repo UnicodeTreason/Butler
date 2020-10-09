@@ -4,4 +4,4 @@ A tiny butler to enhance my laziness
 
 ## Attributions
 
-Butler Icon: "http://www.freepik.com/" from "https://www.flaticon.com/"
+Butler Icon: by "https://www.flaticon.com/authors/freepik"
