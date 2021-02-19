@@ -15,6 +15,7 @@ Func PasteHere()
   Sleep($writeSpeed)
   $clipContents = ClipGet()
   MouseClick($MOUSE_CLICK_LEFT)
+  Opt('SendKeyDelay', 100)
 	Send($clipContents)
 EndFunc
 
