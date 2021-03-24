@@ -1,6 +1,6 @@
 # Butler
 
-A tiny butler to enhance my laziness
+A tool to perform some common tasks based on Key Shortcuts.
 
 ## Usage
 
