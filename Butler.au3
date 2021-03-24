@@ -23,10 +23,10 @@ EndFunc
 ; "Pastes" whatevers in the Clipboard useful for typing into RDP sessions that's wont accept normal paste
 Func PasteHere()
     Sleep($actionSpeed)
-    MouseClick($MOUSE_CLICK_LEFT)
     $ClipContents = ClipGet()
     $ClipboardLength = StringLen($ClipContents)
     ProgressOn("Pasting Progress", "Pasting Data", "0%", -1, -1, $DLG_NOTITLE)
+    MouseClick($MOUSE_CLICK_LEFT)
 
     For $i = 1 To $ClipboardLength Step 1
         Sleep(500)
