@@ -25,7 +25,7 @@ Func PasteHere()
     Sleep($actionSpeed)
     $ClipContents = ClipGet()
     $ClipboardLength = StringLen($ClipContents)
-    ProgressOn("Pasting Progress", "Pasting Data", "0%", -1, -1, $DLG_NOTITLE)
+    ProgressOn("Pasting Progress", "Pasting Data", "0%", -1, 0, $DLG_NOTITLE)
     MouseClick($MOUSE_CLICK_LEFT)
 
     For $i = 1 To $ClipboardLength Step 1
